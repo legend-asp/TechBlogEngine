@@ -1,0 +1,31 @@
+﻿@model MyTechnicalBlog.Models.User
+@{
+    ViewData["Title"] = "Регистрация";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-4 card shadow p-4">
+            <h2 class="text-center mb-4">Регистрация</h2>
+
+            <form asp-action="Register" method="post">
+                <div class="form-group mb-3">
+                    <label asp-for="Username" class="form-label">Имя пользователя</label>
+                    <input asp-for="Username" class="form-control" placeholder="Напр. Ivan_777">
+                    <span asp-validation-for="Username" class="text-danger small"></span>
+                </div>
+
+                <button type="submit" class="btn btn-success w-100 mb-3">Создать аккаунт</button>
+            </form>
+
+            <div class="text-center mt-3">
+                <span>Уже есть аккаунт?</span>
+                <a href="/Account/Login" class="btn btn-link p-0" style="vertical-align: baseline;">Войти</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

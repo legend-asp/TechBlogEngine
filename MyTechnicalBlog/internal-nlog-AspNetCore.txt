@@ -1,0 +1,69 @@
+2026-03-08 18:56:48.5312 Info Registered target NLog.Targets.FileTarget(Name=actions)
+2026-03-08 18:56:48.5434 Info Registered target NLog.Targets.FileTarget(Name=errors)
+2026-03-08 18:56:48.5434 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.1.1.5033. Product version: 6.1.1+0e83056311dfcda0493d7db60b7191d0927eb5da. GlobalAssemblyCache: False
+2026-03-08 18:56:48.6014 Info Configuration initialized: TargetNames=actions, errors, ConfigItems=34, AutoReload=true, FilePath=C:\Users\popoc\OneDrive\Рабочий стол\MyTechnicalBlog-main\MyTechnicalBlog\bin\Debug\net8.0\nlog.config
+2026-03-08 19:15:06.3947 Info Registered target NLog.Targets.FileTarget(Name=actions)
+2026-03-08 19:15:06.4051 Info Registered target NLog.Targets.FileTarget(Name=errors)
+2026-03-08 19:15:06.4107 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.1.1.5033. Product version: 6.1.1+0e83056311dfcda0493d7db60b7191d0927eb5da. GlobalAssemblyCache: False
+2026-03-08 19:15:06.4556 Info Configuration initialized: TargetNames=actions, errors, ConfigItems=34, AutoReload=true, FilePath=C:\Users\popoc\OneDrive\Рабочий стол\MyTechnicalBlog-main\MyTechnicalBlog\bin\Debug\net8.0\nlog.config
+2026-03-08 19:24:43.7179 Info Registered target NLog.Targets.FileTarget(Name=actions)
+2026-03-08 19:24:43.7281 Info Registered target NLog.Targets.FileTarget(Name=errors)
+2026-03-08 19:24:43.7281 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.1.1.5033. Product version: 6.1.1+0e83056311dfcda0493d7db60b7191d0927eb5da. GlobalAssemblyCache: False
+2026-03-08 19:24:43.7579 Info Configuration initialized: TargetNames=actions, errors, ConfigItems=34, AutoReload=true, FilePath=C:\Users\popoc\OneDrive\Рабочий стол\MyTechnicalBlog-main\MyTechnicalBlog\bin\Debug\net8.0\nlog.config
+2026-03-08 19:24:43.9053 Info LogFactory shutting down ...
+2026-03-08 19:24:43.9053 Info Closing old configuration.
+2026-03-08 19:24:43.9143 Info LogFactory shutdown completed.
+2026-03-08 19:24:57.6486 Info Registered target NLog.Targets.FileTarget(Name=actions)
+2026-03-08 19:24:57.6486 Info Registered target NLog.Targets.FileTarget(Name=errors)
+2026-03-08 19:24:57.6618 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.1.1.5033. Product version: 6.1.1+0e83056311dfcda0493d7db60b7191d0927eb5da. GlobalAssemblyCache: False
+2026-03-08 19:24:57.6851 Info Configuration initialized: TargetNames=actions, errors, ConfigItems=34, AutoReload=true, FilePath=C:\Users\popoc\OneDrive\Рабочий стол\MyTechnicalBlog-main\MyTechnicalBlog\bin\Debug\net8.0\nlog.config
+2026-03-08 19:24:57.8256 Info LogFactory shutting down ...
+2026-03-08 19:24:57.8256 Info Closing old configuration.
+2026-03-08 19:24:57.8337 Info LogFactory shutdown completed.
+2026-03-08 19:25:17.3462 Info Registered target NLog.Targets.FileTarget(Name=actions)
+2026-03-08 19:25:17.3557 Info Registered target NLog.Targets.FileTarget(Name=errors)
+2026-03-08 19:25:17.3557 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.1.1.5033. Product version: 6.1.1+0e83056311dfcda0493d7db60b7191d0927eb5da. GlobalAssemblyCache: False
+2026-03-08 19:25:17.4102 Info Configuration initialized: TargetNames=actions, errors, ConfigItems=34, AutoReload=true, FilePath=C:\Users\popoc\OneDrive\Рабочий стол\MyTechnicalBlog-main\MyTechnicalBlog\bin\Debug\net8.0\nlog.config
+2026-03-08 19:28:26.8142 Info Registered target NLog.Targets.FileTarget(Name=actions)
+2026-03-08 19:28:26.8225 Info Registered target NLog.Targets.FileTarget(Name=errors)
+2026-03-08 19:28:26.8225 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.1.1.5033. Product version: 6.1.1+0e83056311dfcda0493d7db60b7191d0927eb5da. GlobalAssemblyCache: False
+2026-03-08 19:28:26.8688 Info Configuration initialized: TargetNames=actions, errors, ConfigItems=34, AutoReload=true, FilePath=C:\Users\popoc\OneDrive\Рабочий стол\MyTechnicalBlog-main\MyTechnicalBlog\bin\Debug\net8.0\nlog.config
+2026-03-08 19:29:44.4338 Info Registered target NLog.Targets.FileTarget(Name=actions)
+2026-03-08 19:29:44.4443 Info Registered target NLog.Targets.FileTarget(Name=errors)
+2026-03-08 19:29:44.4443 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.1.1.5033. Product version: 6.1.1+0e83056311dfcda0493d7db60b7191d0927eb5da. GlobalAssemblyCache: False
+2026-03-08 19:29:44.4904 Info Configuration initialized: TargetNames=actions, errors, ConfigItems=34, AutoReload=true, FilePath=C:\Users\popoc\OneDrive\Рабочий стол\MyTechnicalBlog-main\MyTechnicalBlog\bin\Debug\net8.0\nlog.config
+2026-03-08 19:31:44.1917 Info Registered target NLog.Targets.FileTarget(Name=actions)
+2026-03-08 19:31:44.1917 Info Registered target NLog.Targets.FileTarget(Name=errors)
+2026-03-08 19:31:44.1917 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.1.1.5033. Product version: 6.1.1+0e83056311dfcda0493d7db60b7191d0927eb5da. GlobalAssemblyCache: False
+2026-03-08 19:31:44.2223 Info Configuration initialized: TargetNames=actions, errors, ConfigItems=34, AutoReload=true, FilePath=C:\Users\popoc\OneDrive\Рабочий стол\MyTechnicalBlog-main\MyTechnicalBlog\bin\Debug\net8.0\nlog.config
+2026-03-08 19:31:44.3348 Info LogFactory shutting down ...
+2026-03-08 19:31:44.3348 Info Closing old configuration.
+2026-03-08 19:31:44.3541 Info LogFactory shutdown completed.
+2026-03-08 19:32:33.2158 Info Registered target NLog.Targets.FileTarget(Name=actions)
+2026-03-08 19:32:33.2247 Info Registered target NLog.Targets.FileTarget(Name=errors)
+2026-03-08 19:32:33.2247 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.1.1.5033. Product version: 6.1.1+0e83056311dfcda0493d7db60b7191d0927eb5da. GlobalAssemblyCache: False
+2026-03-08 19:32:33.2706 Info Configuration initialized: TargetNames=actions, errors, ConfigItems=34, AutoReload=true, FilePath=C:\Users\popoc\OneDrive\Рабочий стол\MyTechnicalBlog-main\MyTechnicalBlog\bin\Debug\net8.0\nlog.config
+2026-03-08 19:37:20.6530 Info Registered target NLog.Targets.FileTarget(Name=actions)
+2026-03-08 19:37:20.6627 Info Registered target NLog.Targets.FileTarget(Name=errors)
+2026-03-08 19:37:20.6627 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.1.1.5033. Product version: 6.1.1+0e83056311dfcda0493d7db60b7191d0927eb5da. GlobalAssemblyCache: False
+2026-03-08 19:37:20.7111 Info Configuration initialized: TargetNames=actions, errors, ConfigItems=34, AutoReload=true, FilePath=C:\Users\popoc\OneDrive\Рабочий стол\MyTechnicalBlog-main\MyTechnicalBlog\bin\Debug\net8.0\nlog.config
+2026-03-08 19:41:48.7920 Info Registered target NLog.Targets.FileTarget(Name=actions)
+2026-03-08 19:41:48.8012 Info Registered target NLog.Targets.FileTarget(Name=errors)
+2026-03-08 19:41:48.8012 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.1.1.5033. Product version: 6.1.1+0e83056311dfcda0493d7db60b7191d0927eb5da. GlobalAssemblyCache: False
+2026-03-08 19:41:48.8457 Info Configuration initialized: TargetNames=actions, errors, ConfigItems=34, AutoReload=true, FilePath=C:\Users\popoc\OneDrive\Рабочий стол\MyTechnicalBlog-main\MyTechnicalBlog\bin\Debug\net8.0\nlog.config
+2026-03-08 19:45:00.4618 Info Registered target NLog.Targets.FileTarget(Name=actions)
+2026-03-08 19:45:00.4721 Info Registered target NLog.Targets.FileTarget(Name=errors)
+2026-03-08 19:45:00.4781 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.1.1.5033. Product version: 6.1.1+0e83056311dfcda0493d7db60b7191d0927eb5da. GlobalAssemblyCache: False
+2026-03-08 19:45:00.5228 Info Configuration initialized: TargetNames=actions, errors, ConfigItems=34, AutoReload=true, FilePath=C:\Users\popoc\OneDrive\Рабочий стол\MyTechnicalBlog-main\MyTechnicalBlog\bin\Debug\net8.0\nlog.config
+2026-03-08 19:48:06.6611 Info Registered target NLog.Targets.FileTarget(Name=actions)
+2026-03-08 19:48:06.6711 Info Registered target NLog.Targets.FileTarget(Name=errors)
+2026-03-08 19:48:06.6711 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.1.1.5033. Product version: 6.1.1+0e83056311dfcda0493d7db60b7191d0927eb5da. GlobalAssemblyCache: False
+2026-03-08 19:48:06.7183 Info Configuration initialized: TargetNames=actions, errors, ConfigItems=34, AutoReload=true, FilePath=C:\Users\popoc\OneDrive\Рабочий стол\MyTechnicalBlog-main\MyTechnicalBlog\bin\Debug\net8.0\nlog.config
+2026-03-08 19:50:31.6667 Info Registered target NLog.Targets.FileTarget(Name=actions)
+2026-03-08 19:50:31.6787 Info Registered target NLog.Targets.FileTarget(Name=errors)
+2026-03-08 19:50:31.6787 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.1.1.5033. Product version: 6.1.1+0e83056311dfcda0493d7db60b7191d0927eb5da. GlobalAssemblyCache: False
+2026-03-08 19:50:31.7389 Info Configuration initialized: TargetNames=actions, errors, ConfigItems=34, AutoReload=true, FilePath=C:\Users\popoc\OneDrive\Рабочий стол\MyTechnicalBlog-main\MyTechnicalBlog\bin\Debug\net8.0\nlog.config
+2026-03-08 19:52:58.7597 Info Registered target NLog.Targets.FileTarget(Name=actions)
+2026-03-08 19:52:58.7731 Info Registered target NLog.Targets.FileTarget(Name=errors)
+2026-03-08 19:52:58.7731 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.1.1.5033. Product version: 6.1.1+0e83056311dfcda0493d7db60b7191d0927eb5da. GlobalAssemblyCache: False
+2026-03-08 19:52:58.8435 Info Configuration initialized: TargetNames=actions, errors, ConfigItems=34, AutoReload=true, FilePath=C:\Users\popoc\OneDrive\Рабочий стол\MyTechnicalBlog-main\MyTechnicalBlog\bin\Debug\net8.0\nlog.config

@@ -1,0 +1,26 @@
+﻿@model Comment
+@{
+    ViewData["Title"] = "Комментарии";
+}
+
+<div class="container mt-4">
+    <h3>Модерация комментариев</h3>
+
+    <div class="card p-3 mb-4 shadow-sm">
+        <h5>Добавить быстрый комментарий (тест валидации)</h5>
+        <form asp-action="Create" asp-controller="Comments" method="post">
+            <div class="form-group">
+                <textarea asp-for="Text" class="form-control" placeholder="Ваш комментарий..."></textarea>
+                <span asp-validation-for="Text" class="text-danger small"></span>
+            </div>
+            <button type="submit" class="btn btn-sm btn-outline-primary mt-2">Отправить</button>
+        </form>
+    </div>
+
+    <div id="commentsContainer" class="list-group shadow-sm">
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

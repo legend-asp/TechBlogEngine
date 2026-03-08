@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Главная страница";
+}
+
+<div class="jumbotron text-center mt-5 shadow-sm">
+    <h1 class="display-4">Добро пожаловать в MyTechnicalBlog!</h1>
+    <p class="lead">Чек-лист по верстке макета и валидации данных успешно выполняется.</p>
+    <hr class="my-4">
+    <p>Используйте меню выше для навигации по разделам статей, тегов и управления доступом.</p>
+    @if (!User.Identity.IsAuthenticated)
+    {
+        <a class="btn btn-primary btn-lg" href="/Account/Register" role="button">Зарегистрироваться</a>
+    }
+</div>

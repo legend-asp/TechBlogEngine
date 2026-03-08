@@ -1,0 +1,58 @@
+﻿@using MyTechnicalBlog.Models
+@model IEnumerable<Tag>
+
+@{
+    ViewData["Title"] = "Управление тегами";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4">Управление тегами</h2>
+
+    <div class="card shadow-sm mb-4">
+        <div class="card-body">
+            <form action="/Tags/Create" method="post">
+                <div class="input-group">
+                    <input name="Name" class="form-control" placeholder="Название тега" required />
+                    <div class="input-group-append">
+                        <button type="submit" class="btn btn-success">Добавить</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-hover border">
+            <thead class="thead-light">
+                <tr>
+                    <th>Название тега</th>
+                    <th style="width: 150px;">Действие</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model != null && Model.Any())
+                {
+                    @foreach (var tag in Model)
+                    {
+                        <tr>
+                            <td class="align-middle">
+                                <span class="badge badge-info p-2"># @tag.Name</span>
+                            </td>
+                            <td class="align-middle">
+                                <form action="/Tags/Delete/@tag.Id" method="post" onsubmit="return confirm('Удалить тег @tag.Name?');">
+                                    <button type="submit" class="btn btn-outline-danger btn-sm">Удалить</button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="2" class="text-center text-muted py-4">Тегов пока нет</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
