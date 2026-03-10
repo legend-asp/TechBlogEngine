@@ -1,66 +1,60 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 using MyTechnicalBlog.Data;
+using MyTechnicalBlog.Services;
 using NLog;
 using NLog.Web;
+using Newtonsoft.Json; // Не забудь добавить using
 
-// 1. Инициализация NLog логгера для захвата ошибок старта
 var logger = LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentClassLogger();
 
 try
 {
     var builder = WebApplication.CreateBuilder(args);
 
-    // 2. Подключаем NLog как провайдер логирования
     builder.Logging.ClearProviders();
     builder.Host.UseNLog();
 
     var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-
     builder.Services.AddDbContext<ApplicationDbContext>(options =>
         options.UseSqlite(connectionString));
 
-    builder.Services.AddControllersWithViews();
+    builder.Services.AddScoped<IArticleService, ArticleService>();
+
+    // ИСПРАВЛЕНИЕ 1: Игнорируем циклы в JSON (чтобы Swagger не падал на Article -> User -> Article)
+    builder.Services.AddControllersWithViews()
+        .AddNewtonsoftJson(options =>
+            options.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore);
 
     builder.Services.AddEndpointsApiExplorer();
-    builder.Services.AddSwaggerGen();
+
+    // ИСПРАВЛЕНИЕ 2: Лечим конфликт имен классов (SchemaId conflict)
+    builder.Services.AddSwaggerGen(c =>
+    {
+        c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "My Blog API", Version = "v1" });
+        c.CustomSchemaIds(type => type.FullName);
+    });
 
     builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-        .AddCookie(options =>
-        {
-            options.LoginPath = "/Account/Login";
-        });
+        .AddCookie(options => { options.LoginPath = "/Account/Login"; });
 
     builder.Services.AddAuthorization();
 
     var app = builder.Build();
 
-    // --- ГЛОБАЛЬНЫЙ ОБРАБОТЧИК ИСКЛЮЧЕНИЙ ---
     if (!app.Environment.IsDevelopment())
     {
-        // В продакшене перенаправляем на красивую страницу ошибки
         app.UseExceptionHandler("/Home/Error");
         app.UseHsts();
     }
     else
     {
-        // В разработке показываем детальную страницу ошибки для дебага
         app.UseDeveloperExceptionPage();
-    }
-
-    // Обработка статусных кодов (404, 403 и т.д.)
-    app.UseStatusCodePagesWithReExecute("/Home/HandleError/{0}");
-    // ----------------------------------------
-
-    // Логируем запуск приложения
-    app.Logger.LogInformation("Приложение MyTechnicalBlog успешно запущено.");
-
-    if (app.Environment.IsDevelopment())
-    {
         app.UseSwagger();
         app.UseSwaggerUI();
     }
 
+    app.UseStatusCodePagesWithReExecute("/Home/HandleError/{0}");
     app.UseHttpsRedirection();
     app.UseStaticFiles();
 

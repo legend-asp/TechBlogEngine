@@ -9,15 +9,18 @@ public class HomeController : Controller
         _logger = logger;
     }
 
+    [HttpGet] // Добавь для порядка
     public IActionResult Index() => View();
 
+    [HttpGet] // Добавь для порядка
     public IActionResult Error()
     {
         _logger.LogError("Пользователь столкнулся с внутренней ошибкой сервера (500).");
         return View();
     }
 
-    [Route("Home/HandleError/{code}")]
+    // ИСПРАВЛЕНИЕ: Замени [Route] на [HttpGet] с указанием шаблона
+    [HttpGet("Home/HandleError/{code}")]
     public IActionResult HandleError(int code)
     {
         if (code == 404)
