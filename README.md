@@ -29,10 +29,6 @@ dotnet run
 
 ---
 
-## 👨‍💻 Author
-GitHub: [@yandereye1](https://github.com/yandereye1)
+## 👤 Author
 
----
-
-## 👨‍💻 Author
-GitHub: [@yandereye1](https://github.com/yandereye1)
+> **GitHub:** [@yandereye1](https://github.com)
