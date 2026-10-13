@@ -31,3 +31,8 @@ dotnet run
 
 ## 👨‍💻 Author
 GitHub: [@yandereye1](https://github.com/yandereye1)
+
+---
+
+## 👨‍💻 Author
+GitHub: [@yandereye1](https://github.com/yandereye1)
