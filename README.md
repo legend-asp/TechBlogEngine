@@ -22,11 +22,11 @@
 ---
 ## 🚀 Quickstart
 ```bash
-git clone https://github.com/yandereye1/TechBlogEngine.git
+git clone https://github.com/legend-asp/TechBlogEngine.git
 cd TechBlogEngine/MyTechnicalBlog
 dotnet ef database update
 dotnet run
 ```
 ---
 ## 👤 Author
-GitHub: [@yandereye1](https://github.com/yandereye1)
+GitHub: [@legend-asp](https://github.com/legend-asp)
